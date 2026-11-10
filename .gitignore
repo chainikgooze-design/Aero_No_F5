@@ -1,0 +1,36 @@
+# Minecraft & NeoForge build artifacts
+.gradle/
+build/
+run/
+out/
+bin/
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project/
+.classpath/
+
+# Logs & crash reports
+logs/
+crash-reports/
+
+# Binaries & Minecraft world data
+*.jar
+*.class
+*.nbt
+*.mca
+*.dat
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Agent & AI configuration (keeps public repo clean)
+AGENTS.md
+GEMINI.md
+.geminiignore

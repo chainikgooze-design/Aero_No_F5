@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="no_aero_f5"
+version="1.0.0"
+displayName="No Aero F5"
+authors="Minechainix"
+description="Disables full-construction camera views on Create contraptions and Sable ships while keeping normal third-person view."
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.no_aero_f5]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.200,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.no_aero_f5]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[mixins]]
+config="no_aero_f5.mixins.json"
